@@ -60,6 +60,9 @@ func (service Client) GetServicePoints(servicePoint Matcher) (sendcloud.ServiceP
 	if servicePoint.City != nil {
 		params["city"] = *servicePoint.City
 	}
+	if servicePoint.PostalCode != nil {
+		params["postal_code"] = *servicePoint.PostalCode
+	}
 	if servicePoint.HouseNumber != nil {
 		params["house_number"] = *servicePoint.HouseNumber
 	}
