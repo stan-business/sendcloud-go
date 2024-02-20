@@ -16,7 +16,7 @@ This package currently supports:
 ## Install
 
 ```
-go get github.com/afosto/sendcloud-go
+go get github.com/stan-business/sendcloud-go
 ```
 
 ## Examples
@@ -87,7 +87,7 @@ This package was heavily inspired by `stripe-go`.
 
 ## Author
 
-This package is developed by [Afosto SaaS BV](https://afosto.com).
+This package is forked from project by [Afosto SaaS BV](https://afosto.com).
 
 ## License
 
