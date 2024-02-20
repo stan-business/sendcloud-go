@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/afosto/sendcloud-go"
+	"github.com/stan-business/sendcloud-go"
 	"github.com/stretchr/testify/assert"
 )
 

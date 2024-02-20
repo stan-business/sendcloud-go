@@ -7,7 +7,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/afosto/sendcloud-go"
+	"github.com/stan-business/sendcloud-go"
 	"golang.org/x/text/runes"
 	"golang.org/x/text/transform"
 	"golang.org/x/text/unicode/norm"

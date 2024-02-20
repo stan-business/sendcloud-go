@@ -7,11 +7,12 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"errors"
-	sendcloud "github.com/afosto/sendcloud-go"
 	"io/ioutil"
 	"net/http"
 	"strconv"
 	"time"
+
+	sendcloud "github.com/stan-business/sendcloud-go"
 )
 
 type Client struct {

@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/afosto/sendcloud-go"
+	"github.com/stan-business/sendcloud-go"
 )
 
 type WeightUnit string

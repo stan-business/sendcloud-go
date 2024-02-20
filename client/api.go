@@ -1,11 +1,11 @@
 package client
 
 import (
-	"github.com/afosto/sendcloud-go/integration"
-	"github.com/afosto/sendcloud-go/method"
-	"github.com/afosto/sendcloud-go/parcel"
-	"github.com/afosto/sendcloud-go/sender"
-	"github.com/afosto/sendcloud-go/servicepoint"
+	"github.com/stan-business/sendcloud-go/integration"
+	"github.com/stan-business/sendcloud-go/method"
+	"github.com/stan-business/sendcloud-go/parcel"
+	"github.com/stan-business/sendcloud-go/sender"
+	"github.com/stan-business/sendcloud-go/servicepoint"
 )
 
 type API struct {
@@ -16,7 +16,7 @@ type API struct {
 	Integration  *integration.Client
 }
 
-//Initialize the client
+// Initialize the client
 func (a *API) Init(apiKey string, apiSecret string) {
 	a.Parcel = parcel.New(apiKey, apiSecret)
 	a.Method = method.New(apiKey, apiSecret)

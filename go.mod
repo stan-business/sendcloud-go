@@ -1,4 +1,4 @@
-module github.com/afosto/sendcloud-go
+module github.com/stan-business/sendcloud-go
 
 go 1.15
 
